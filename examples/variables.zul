@@ -1,0 +1,10 @@
+a kuba 10
+b kuba 5
+
+isamba kuba a + b
+umehluko kuba a - b
+umphumela kuba a * b
+
+bonisa isamba
+bonisa umehluko
+bonisa umphumela
