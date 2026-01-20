@@ -125,3 +125,11 @@ A bridge from local language to global technology
 ## ❤️ Acknowledgements
 To every learner who thought programming was not for them —
 Zululang is for you.
+
+## 📂 Izibonelo (Examples)
+
+Bheka ifolda ethi `examples/` ukuze uthole:
+- Izibonelo zokuqala
+- Imijikelezo
+- Imisebenzi
+- Izinhlelo zangempela ezincane
