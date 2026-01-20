@@ -1,0 +1,8 @@
+x kuba 8
+y kuba 2
+
+bonisa "Ukuhlanganisa:"
+bonisa x + y
+
+bonisa "Ukuhlukanisa:"
+bonisa x / y
