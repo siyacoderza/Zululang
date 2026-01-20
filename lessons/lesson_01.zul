@@ -1,0 +1,72 @@
+# =========================================
+# ISIFUNDO 01: Isingeniso seZululang
+# =========================================
+# Kulesi sifundo sizofunda:
+# 1. Yini uZululang
+# 2. Ukubonisa umbhalo (output)
+# 3. Ukusebenzisa iziguquguquki (variables)
+#
+# QAPHELA:
+# Imigqa eqala ngo # iyimibono (comments)
+# ayenziwa uhlelo, ifundisa kuphela.
+# =========================================
+
+
+# -----------------------------------------
+# ISIGABA 1: Sawubona, Zululang
+# -----------------------------------------
+# Umyalo othi "bonisa" usetshenziswa
+# ukubonisa umbhalo noma inani esikrinini.
+
+bonisa "Sawubona! Lokhu uZululang."
+bonisa "Sifunda ukuhlela ngesiZulu 😊"
+
+
+# -----------------------------------------
+# ISIGABA 2: Iziguquguquki (Variables)
+# -----------------------------------------
+# Iziguquguquki zigcina imininingwane.
+# Sisebenzisa igama + 'kuba' + inani.
+
+igama kuba "Siyabonga"
+iminyaka kuba 25
+
+bonisa igama
+bonisa iminyaka
+
+
+# -----------------------------------------
+# ISIGABA 3: Ukuhlanganisa umbhalo
+# -----------------------------------------
+# Singahlanganisa umbhalo neziguquguquki
+# sisebenzisa uphawu luka +
+
+bonisa "Igama lami ngu " + igama
+bonisa "Ngineminyaka engu " + iminyaka
+
+
+# -----------------------------------------
+# ISIGABA 4: Izibalo ezilula
+# -----------------------------------------
+# IZululang iyakwazi ukwenza izibalo
+
+a kuba 10
+b kuba 5
+
+bonisa a + b
+bonisa a - b
+bonisa a * b
+bonisa a / b
+
+
+# -----------------------------------------
+# ISIGABA 5: Ukuvala isifundo
+# -----------------------------------------
+# Uma usufike lapha, usuwazi:
+# - bonisa
+# - kuba
+# - izibalo
+# - ukufunda ikhodi ngesiZulu
+
+bonisa "Isifundo 01 siphelile 🎉"
+bonisa "Qhubeka ufunde, uyakwazi!"
