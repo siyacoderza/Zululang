@@ -1,0 +1,5 @@
+bala kuba 0
+
+ngenkathi bala < 10
+    bonisa "Ukubala: " + bala
+    bala kuba bala + 1
