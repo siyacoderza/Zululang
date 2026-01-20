@@ -1,0 +1,4 @@
+x kuba 5
+y kuba 10
+z kuba x + y
+bonisa "Umphumela: " + z
