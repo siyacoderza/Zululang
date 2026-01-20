@@ -1,0 +1,5 @@
+umsebenzi bingelela(igama)
+    bonisa "Sawubona " + igama + ", wamukelekile!"
+
+bingelela("Siyabonga")
+bingelela("Thandi")
