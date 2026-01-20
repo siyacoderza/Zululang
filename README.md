@@ -87,7 +87,8 @@ Beginners learning to code
 isiZulu speakers
 Educators and community programs
 Anyone who finds traditional programming intimidating
-🛡️ License
+
+##🛡️ License
 Zululang is released under the MIT License.
 You are free to:
 Use
@@ -96,13 +97,15 @@ Share
 Teach with
 Build upon Zululang
 See the LICENSE file for full details.
-🏷️ Name & Identity
+
+##🏷️ Name & Identity
 Zululang is a project created by Siyabonga Ngcobo.
 The language name and branding represent:
 African innovation
 Cultural inclusion
 Accessible technology
-🤝 Contributing
+
+##🤝 Contributing
 Contributions are welcome!
 You can help by:
 Improving the translator
@@ -110,13 +113,15 @@ Adding examples
 Writing tutorials
 Improving error messages
 Please see CONTRIBUTORS.md for guidelines.
-🔮 Vision
+
+##🔮 Vision
 Zululang aims to become:
 A gateway language for African learners
 A tool for education and empowerment
 A bridge from local language to global technology
 "Ikhodi kufanele ikhulume nawe."
 (Code should speak to you.)
-❤️ Acknowledgements
+
+## ❤️ Acknowledgements
 To every learner who thought programming was not for them —
 Zululang is for you.
