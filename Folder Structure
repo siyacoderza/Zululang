@@ -1,0 +1,11 @@
+Zululang/
+├── zululang_translator.py    # The Python translator that runs Zululang code
+├── examples/                 # Sample Zululang programs for learners
+│   ├── hello.zulu
+│   ├── math.zulu
+│   └── loops.zulu
+├── LICENSE                   # MIT License file
+├── README.md                 # Project description and usage
+├── CONTRIBUTORS.md           # Optional, list of contributors
+└── docs/                     # Optional, tutorials or language docs
+    └── syntax.md
