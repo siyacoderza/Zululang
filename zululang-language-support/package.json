@@ -1,0 +1,32 @@
+{
+  "name": "zululang-language-support",
+  "displayName": "Zulu Language Support",
+  "description": "Syntax highlighting for Zululang programming language",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "zululang",
+        "aliases": [
+          "Zululang",
+          "zululang"
+        ],
+        "extensions": [
+          ".zul",
+          ".zulu"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "zululang",
+        "scopeName": "source.zul",
+        "path": "./syntaxes/zululang.tmLanguage.json"
+      }
+    ]
+  }
+}
