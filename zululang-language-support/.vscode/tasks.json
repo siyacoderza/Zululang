@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm",
+      "type": "shell",
+      "command": "npm",
+      "args": ["install"],
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
