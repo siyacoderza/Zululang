@@ -39,5 +39,73 @@ if __name__ == "__main__":
         print("Sebenzisa: python zululang_translator.py <file.zulu>")
     else:
         run_zululang(sys.argv[1])
+        
+# Zululang translator V0.2.0 
+# Added JavaScript syntax highlighting
+# Copyright (c) 2026 Siyabonga Ngcobo
+# Licensed under MIT License
 
-      
+
+function runZululang(code) {
+
+const lines = code.split("\n");
+
+lines.forEach((line, index) => {
+
+const words = line.trim().split(" ");
+const command = words[0];
+
+switch(command) {
+
+case "khuluma":
+if(words.length < 2){
+console.log(`Line ${index+1}: Error -> khuluma needs a message`);
+} else {
+console.log(words.slice(1).join(" "));
+}
+break;
+
+case "engeza":
+if(words.length !== 3){
+console.log(`Line ${index+1}: Error -> engeza needs two numbers`);
+} else {
+let result = Number(words[1]) + Number(words[2]);
+console.log(result);
+}
+break;
+
+case "susa":
+if(words.length !== 3){
+console.log(`Line ${index+1}: Error -> susa needs two numbers`);
+} else {
+let result = Number(words[1]) - Number(words[2]);
+console.log(result);
+}
+break;
+
+case "phinda":
+if(words.length !== 3){
+console.log(`Line ${index+1}: Error -> phinda needs two numbers`);
+} else {
+let result = Number(words[1]) * Number(words[2]);
+console.log(result);
+}
+break;
+
+case "hlukanisa":
+if(words.length !== 3){
+console.log(`Line ${index+1}: Error -> hlukanisa needs two numbers`);
+} else if(Number(words[2]) === 0){
+console.log(`Line ${index+1}: Error -> cannot divide by zero`);
+} else {
+let result = Number(words[1]) / Number(words[2]);
+console.log(result);
+}
+break;
+
+default:
+console.log(`Line ${index+1}: Unknown Zululang command -> ${command}`);
+}
+
+});
+}
