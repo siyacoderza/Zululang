@@ -22,7 +22,7 @@ Programming should feel like thinking — not translating.
 
 ---
 
-## ✨ Features
+## ✨ Current features supported by the ## Zululang translator.
 
 - Zulu-inspired keywords (`bonisa`, `uma`, `ngenkathi`, `umsebenzi`)
 - Simple, Python-like syntax
@@ -30,11 +30,26 @@ Programming should feel like thinking — not translating.
 - Beginner-friendly structure
 - Runs by translating Zululang code into Python
 
+## Zululang functions and their meaning
+
+- Command Meaning
+- bonisa print output
+- kuba variable assignment
+- uma if statement
+- kungenjalo else statement
+- ngenkathi while loop
+- phinda for loop
+- umsebenzi function definition
+- buyisa return value
+- phela end block
+- cela user input
+- iphutha throw error
+- uhlu array
 ---
 
 ## 📁 File Extension
 
-All Zululang programs use the **`.zul`** file extension.
+## All Zululang programs use the **`.zul`** file extension.
 
 Example:
 
