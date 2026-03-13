@@ -1,3 +1,4 @@
+```bash
 x kuba 8
 y kuba 2
 
@@ -6,3 +7,4 @@ bonisa x + y
 
 bonisa "Ukuhlukanisa:"
 bonisa x / y
+```
